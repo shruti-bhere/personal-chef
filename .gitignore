@@ -1,0 +1,24 @@
+# --- Python Basics ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments (Don't upload these!) ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Environment Variables (CRITICAL: Keeps keys safe) ---
+.env
+.env.local
+.env.*
+
+# --- IDE Settings (VS Code, PyCharm, Mac) ---
+.vscode/
+.idea/
+.DS_Store
+
+# --- Logs and Databases ---
+*.log
+*.sqlite3
